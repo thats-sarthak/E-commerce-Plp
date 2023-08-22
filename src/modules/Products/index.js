@@ -23,7 +23,7 @@ const Products = () => {
       </div>
       {
         products.length > 0 ?
-        <ProductCard products={products}/>
+        <ProductCard products={products}/> 
         :
         <div>Loading.....</div>
       }
